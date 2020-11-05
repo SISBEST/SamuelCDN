@@ -1,0 +1,21 @@
+{
+  "name": "samuelcdn",
+  "version": "0.0.1",
+  "description": "Samuel's JavaScript libraries for external developers.",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "jwt-decode": "^3.0.0"
+  }
+}
